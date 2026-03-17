@@ -8,7 +8,7 @@ DOCS_ROOT = PROJECT_ROOT / "docs"
 TARGET_ROOT = DOCS_ROOT / "screen-grabs"
 
 # Default source for this monorepo layout.
-DEFAULT_SOURCE = PROJECT_ROOT.parents[1] / "Notes Screen Grabs"
+DEFAULT_SOURCE = PROJECT_ROOT / "notes-screengrabs"
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
 
 
