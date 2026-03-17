@@ -64,7 +64,7 @@ def build_index(copied_images: list[Path]) -> str:
 
         alt_text = path.stem.replace("_", " ")
         image_url = encoded_docs_path(path)
-        lines.append(f"### {path.name}")
+        lines.append(f"### [{path.name}]({image_url})")
         lines.append("")
         lines.append(f"![{alt_text}]({image_url})")
         lines.append("")
