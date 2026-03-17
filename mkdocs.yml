@@ -1,0 +1,21 @@
+site_name: CFA Level III Screen Grabs
+site_description: Public image host for CFA review notes
+site_url: https://renegadeactuary.github.io/cfa-level-3-screen-grabs/
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+
+theme:
+  name: readthedocs
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Screen Grabs: index.md
