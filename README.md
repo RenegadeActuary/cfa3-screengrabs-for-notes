@@ -8,11 +8,11 @@ Keep your existing encrypted study book unchanged while serving images publicly 
 
 ## Suggested New Repository
 
-- `RenegadeActuary/cfa-level-3-screen-grabs`
+- `RenegadeActuary/cfa3-screengrabs-for-notes`
 
 ## One-Time Setup
 
-1. Create a new **public** repository named `cfa-level-3-screen-grabs` on GitHub.
+1. Create a new **public** repository named `cfa3-screengrabs-for-notes` on GitHub.
 2. Copy all files from this folder into the root of that new repository.
 3. In the new repo settings, set Pages source to **GitHub Actions** if needed.
 4. Push to `main` or `master`.
@@ -20,7 +20,7 @@ Keep your existing encrypted study book unchanged while serving images publicly 
 
 Your public base URL will be:
 
-- `https://renegadeactuary.github.io/cfa-level-3-screen-grabs/`
+- `https://renegadeactuary.github.io/cfa3-screengrabs-for-notes/`
 
 ## Sync Images From Your Notes Folder
 
@@ -45,7 +45,7 @@ Then commit and push in the new public repo.
 Use absolute image URLs in your private/encrypted notes:
 
 ```markdown
-![LM4 Duration Matching](https://renegadeactuary.github.io/cfa-level-3-screen-grabs/screen-grabs/LM4%20Liability-Driven%20and%20Index-Based%20Strategies/your-image-file.png)
+![LM4 Duration Matching](https://renegadeactuary.github.io/cfa3-screengrabs-for-notes/screen-grabs/LM4%20Liability-Driven%20and%20Index-Based%20Strategies/your-image-file.png)
 ```
 
 Tip: Spaces in folder and file names must be URL-encoded as `%20`.
