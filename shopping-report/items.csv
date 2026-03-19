@@ -1,5 +1,0 @@
-item_id,url,title,store,category,list_name,price,priority,tags,notes,source_file,line_number,current_price,currency,image_url,sizes,fetch_error
-1,https://www.cos.com/en-ca/men/menswear/jeans/relaxed-fit/product/dome-straight-leg-jeans-light-blue-1209037015,dome-straight-leg-jeans-light-blue-1209037015,COS,men / jeans,jeans,,,,,men/jeans.txt,2,,,,,HTTP 403
-2,https://www2.hm.com/en_ca/productpage.0979945076.html,productpage.0979945076.html,H&M,men / jeans,jeans,,,,,men/jeans.txt,3,,,,,HTTP 403
-3,https://www.cos.com/,www.cos.com,COS,women / tops,tops,,,,,women/tops.txt,4,,,,,HTTP 403
-4,https://www2.hm.com/,H&M homepage,H&M,women / tops,tops,,,,,women/tops.txt,5,,,,,HTTP 403

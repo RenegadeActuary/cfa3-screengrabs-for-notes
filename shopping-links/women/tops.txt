@@ -1,5 +1,0 @@
-# Paste links here
-# Format: URL | title | price | priority | tags | notes
-
-https://www.cos.com/
-https://www2.hm.com/ | H&M homepage
