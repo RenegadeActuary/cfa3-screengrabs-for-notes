@@ -49,3 +49,35 @@ Use absolute image URLs in your private/encrypted notes:
 ```
 
 Tip: Spaces in folder and file names must be URL-encoded as `%20`.
+
+## Shopping Links Canvas Report (MVP)
+
+You can also use this repo to track shopping links in nested folders and generate a visual report.
+
+Input folder:
+
+- `shopping-links/`
+
+Run:
+
+```bash
+python scripts/build_shopping_report.py
+```
+
+Outputs:
+
+- `shopping-report/report.html` (visual report)
+- `shopping-report/items.csv` (spreadsheet-style export)
+- `shopping-report/items.json` (raw structured data)
+
+The report attempts to fetch live metadata from each URL (title, image, current price, and sometimes sizes).
+Some retailers block automated requests; when that happens, provide `price` and `image_url` directly in your input lines.
+
+The script infers categories from folders and file names.
+
+Examples:
+
+- `shopping-links/women/tops.txt` -> `women / tops`
+- `shopping-links/home/decor.txt` -> `home / decor`
+
+For line format details, see `shopping-links/README.md`.
